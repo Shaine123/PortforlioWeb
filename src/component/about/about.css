@@ -1,0 +1,51 @@
+.About-title{
+   font-size: 60px;
+   color: white;
+   margin-left: 150px;
+   text-align: center;
+   margin-bottom: 70px;
+   width: 85vw;
+}
+.about-info{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about-container{
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+.about-details{
+    width: 40vw;
+}
+.textTitle{
+   color: white;
+}
+.textTitleSpan{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgb(105, 99, 205) 0%, rgba(122, 99, 208, 0.924) 31%, rgba(0,212,255,1) 100%);
+     /* Mask the color to the text, and remove the rest  */
+   -webkit-background-clip: text;
+     /* Make the text fill color value transparent so the masked background color comes through */
+   -webkit-text-fill-color: transparent;
+}
+.text1,.text2,.text3{
+  color: white;
+  margin: 10px 0;
+  text-align: justify;
+}
+.about-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 41vw;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.about-image .about-image-container{
+    height: 250px;
+    width: 250px;
+}
+.about-image .about-image-container img{
+    width: 100%;
+    height: 100%;
+}

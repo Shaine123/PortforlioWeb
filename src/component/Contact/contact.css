@@ -1,0 +1,141 @@
+.contact-container{
+   padding-bottom: 100px;
+}
+.contact-title{
+  font-size: 60px;
+  color: white;
+  margin-left: 150px;
+  text-align: center;
+  margin-bottom: 70px;
+  width: 85vw;
+}
+.contact-info{
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-radial{
+  height: 100%;
+  width: 530px;
+  border-radius: 20px;
+  background-image: radial-gradient(#7f5af0a9, #191a2d, #191a2d);
+}
+.contact-radial img{
+   height: 200px;
+   width: auto;
+   margin-left: 170px;
+   margin-top: 50px;
+}
+
+.contact-radial .contact-subtitle{
+   color: white;
+   font-size: 40px;
+}
+.contact-radial  p{
+  color: white;
+}
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;  
+  background-color: #7f5af0;;
+  height: 40px;
+  width: 120px;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 10px;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.modal-container{
+  position: fixed;
+  background: #191a2d;  
+  border: 2px solid #7f5af0;
+  bottom: 150px;
+  left: 38vw;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  z-index: -1;
+}
+.modal-container input{
+   display: block;
+   height: 30px;
+   width: 225px;
+   padding-left: 10px;
+}
+.modal-container textarea{
+   padding-left: 10px;
+}
+.modal-container label{
+  display: block;
+  color: white;
+  margin: 10px 0;
+}
+
+.modal-container .modal-cont{
+   margin-left: 70px;
+   margin-top: 30px;
+}
+
+.modal-container img{
+   height: 20px;
+   width: auto;
+   position: absolute;
+   cursor: pointer;
+   top: 10px;
+   right: 10px;
+}
+.send-button{
+   display: block;
+   padding: 0.5rem 1.7rem;
+   cursor: pointer;
+   border: none;
+   border-radius: 2px;
+   transition: all ease-in 0.5s;
+   margin-left: 70px;
+   margin-top: 10px;
+}
+.send-button:hover{
+   background-color: #7f5af0 ;
+   color: white;
+}
+
+.social-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   right: 40px;
+   bottom: 10px;
+   width: 300px;
+   gap: 20px;
+}
+
+.social-container a img{
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+}

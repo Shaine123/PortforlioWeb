@@ -1,0 +1,271 @@
+.works-container{
+  padding-bottom: 100px;
+  padding-top: 150px;
+}
+.works-title{
+  font-size: 60px;
+  color: white;
+  margin-left: 150px;
+  text-align: center;
+  margin-bottom: 70px;
+  width: 85vw;
+}
+.main-project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 350px;
+  margin-bottom: 90px;
+  padding-left: 35px;
+}
+.radial-bg{
+  height: 100%;
+  width: 530px;
+  border-radius: 20px;
+  background-image: radial-gradient(#7f5af0a9, #191a2d, #191a2d);
+}
+
+.radial-bg img{
+   height: 300px;
+   width: auto;
+   margin-top: 20px;
+   margin-left: 40px;
+}
+
+.radial-bg .mainproject-title{
+  color: white;
+  font-weight: 500;
+}
+.radial-bg .mainproject-subtitle{
+  font-weight: 500;
+  background: linear-gradient(90deg, rgb(105, 99, 205) 0%, rgba(122, 99, 208, 0.924) 31%, rgba(0,212,255,1) 100%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+}
+.radial-bg .project-description{
+  text-align: justify;
+  color: white;
+  margin-bottom: 15px;
+}
+.radial-bg .project-description2{
+  text-align: justify;
+  color: white;
+  margin-bottom: 15px;
+}
+.radial-bg .project-languages{
+  color: white;
+  margin-bottom: 15px;
+}
+.radial-bg .progress-bar, .progress-bar2, .progress-bar3{
+  height: 10px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.radial-bg .progress-bar .progress{
+  height: 100%;
+  width: 40%;
+  background-color: #05A8AA;
+}
+.radial-bg .progress-bar .progress:nth-child(2){
+  width: 20%;
+  background-color: #B8D5B8;
+}
+.radial-bg .progress-bar .progress:nth-child(3){
+  width: 15%;
+  background-color: #D7B49E;
+}
+.radial-bg .progress-bar .progress:nth-child(4){
+  width: 20%;
+  background-color: #DC602E;
+}
+.radial-bg .progress-bar .progress:nth-child(5){
+  width: 5%;
+  background-color: #BC412B;
+}
+
+.radial-bg  ul{
+   display: flex;
+   gap: 25px;
+   margin-top: 10px;
+   padding-left: 20px;
+}
+.radial-bg  ul li{
+  color: white;
+  font-size: 12px;
+}
+.radial-bg  ul li::marker{
+  color: #05A8AA;
+}
+.radial-bg  ul li:nth-child(2)::marker{
+  color: #B8D5B8;
+}
+.radial-bg  ul li:nth-child(3)::marker{
+  color: #D7B49E;
+}
+.radial-bg  ul li:nth-child(4)::marker{
+  color: #DC602E;
+}
+.radial-bg  ul li:nth-child(5)::marker{
+  color: #BC412B;
+}
+
+
+.radial-bg .progress-bar2 .progress{
+  height: 100%;
+  width: 50%;
+  background-color: #71677C;
+}
+.radial-bg .progress-bar2 .progress:nth-child(2){
+  width: 20%;
+  background-color: #A99F96;
+}
+.radial-bg .progress-bar2 .progress:nth-child(3){
+  width: 15%;
+  background-color: #DDA77B;
+}
+.radial-bg .progress-bar2 .progress:nth-child(4){
+  width: 20%;
+  background-color: #945D5E;
+}
+
+
+.radial-bg  ul{
+   display: flex;
+   gap: 25px;
+   margin-top: 10px;
+   padding-left: 20px;
+}
+.radial-bg  ul li{
+  color: white;
+  font-size: 12px;
+}
+.radial-bg  ul li::marker{
+  color: #71677C;
+}
+.radial-bg  ul li:nth-child(2)::marker{
+  color: #A99F96;
+}
+.radial-bg  ul li:nth-child(3)::marker{
+  color: #DDA77B;
+}
+.radial-bg  ul li:nth-child(4)::marker{
+  color: #945D5E;
+}
+
+.radial-bg .progress-bar3 .progress{
+  height: 100%;
+  width: 30%;
+  background-color: #F6AE2D;
+}
+.radial-bg .progress-bar3 .progress:nth-child(2){
+  width: 20%;
+  background-color: #224870;
+}
+.radial-bg .progress-bar3 .progress:nth-child(3){
+  width: 15%;
+  background-color: #2A4494;
+}
+.radial-bg .progress-bar3 .progress:nth-child(4){
+  width: 15%;
+  background-color: #4EA5D9;
+}
+.radial-bg .progress-bar3 .progress:nth-child(5){
+  width: 10%;
+  background-color: #C490D1;
+}
+.radial-bg .progress-bar3 .progress:nth-child(6){
+  width: 10%;
+  background-color: #726DA8;
+}
+
+.radial-bg  ul{
+   display: flex;
+   gap: 25px;
+   margin-top: 10px;
+   padding-left: 20px;
+}
+.radial-bg  ul li{
+  color: white;
+  font-size: 12px;
+}
+.radial-bg  ul li::marker{
+  color: #F6AE2D;
+}
+.radial-bg  ul li:nth-child(2)::marker{
+  color: #224870;
+}
+.radial-bg  ul li:nth-child(3)::marker{
+  color: #2A4494;
+}
+.radial-bg  ul li:nth-child(4)::marker{
+  color: #4EA5D9;
+}
+.radial-bg  ul li:nth-child(5)::marker{
+  color: #C490D1;
+}
+.radial-bg  ul li:nth-child(6)::marker{
+  color: #726DA8;
+}
+
+
+
+.side-projects{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+.side-projects .sideproject-container{
+  height: 300px;
+  width: 50vw;
+  background-image: linear-gradient(0deg, #883ccf 14.56%, #9d41f2 14.56%, #9d41f2 29.75%, #7327ba 29.75%, #7327ba 50%, #883ccf 50%, #883ccf 64.56%, #9d41f2 64.56%, #9d41f2 79.75%, #7327ba 79.75%, #7327ba 100%);
+  background-size: 158.00px 158.00px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+}
+.side-projects .sideproject-container:nth-child(2){
+  background-image: linear-gradient(0deg, #807d7d 14.08%, #858181 14.08%, #858181 28.87%, #8c8888 28.87%, #8c8888 50%, #807d7d 50%, #807d7d 64.08%, #858181 64.08%, #858181 78.87%, #8c8888 78.87%, #8c8888 100%);
+  background-size: 142.00px 142.00px;
+}
+.side-projects .sideproject-container:nth-child(3){
+  background-image: linear-gradient(0deg, #eb4068 14.08%, #e62753 14.08%, #e62753 28.87%, #fa6789 28.87%, #fa6789 50%, #eb4068 50%, #eb4068 64.08%, #e62753 64.08%, #e62753 78.87%, #fa6789 78.87%, #fa6789 100%);
+  background-size: 142.00px 142.00px;
+}
+.side-projects .sideproject-container:nth-child(4){
+  background-image: linear-gradient(0deg, #6bcfed 14.08%, #6dc4de 14.08%, #6dc4de 28.87%, #52b6d4 28.87%, #52b6d4 50%, #6bcfed 50%, #6bcfed 64.08%, #6dc4de 64.08%, #6dc4de 78.87%, #52b6d4 78.87%, #52b6d4 100%);
+  background-size: 142.00px 142.00px;
+}
+.side-projects .sideproject-container:nth-child(6){
+  background-image: linear-gradient(0deg, #807d7d 14.08%, #858181 14.08%, #858181 28.87%, #8c8888 28.87%, #8c8888 50%, #807d7d 50%, #807d7d 64.08%, #858181 64.08%, #858181 78.87%, #8c8888 78.87%, #8c8888 100%);
+  background-size: 142.00px 142.00px;
+}
+
+.side-projects .sideproject-container .sideproject-image{
+   height: 100%;
+   width:  40%;
+   padding-top: 50px;
+}
+.side-projects .sideproject-container .sideproject-image img{
+  height: 200px;
+  width: auto;
+}
+
+.side-projects .sideproject-container .sideproject-text h2{
+  color: white;
+  font-size: 30px;
+}
+.side-projects .sideproject-container .sideproject-text p{
+  color: white;
+  text-align: justify;
+}
