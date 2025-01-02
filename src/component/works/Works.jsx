@@ -87,7 +87,7 @@ const Works = () => {
                 duration: 1
             }}
           >
-          <img src={Works1} alt="work1" />
+          <img src={Works1} alt="work1" loading='lazy'/>
           </motion.div>
         </div>
         <div className="main-project">
@@ -157,7 +157,7 @@ const Works = () => {
                 duration: 1
             }}
           >
-          <img src={Works2} alt="work2" />
+          <img src={Works2} alt="work2" loading='lazy' />
           </motion.div>
         </div>
         <div className="main-project">
@@ -231,7 +231,7 @@ const Works = () => {
                 duration: 1
             }}
           >
-          <img src={Works9} alt="work2" />
+          <img src={Works9} alt="work2" loading='lazy'/>
           </motion.div>
         </div>
         <div className="side-projects">
@@ -253,7 +253,7 @@ const Works = () => {
              }}
             >
               <div className="sideproject-image">
-                  <img src={Works3} alt="works3" />
+                  <img src={Works3} alt="works3" loading='lazy'/>
               </div>
               <div className="sideproject-text">
                  <h2>Etch-a Sketch </h2>
@@ -282,7 +282,7 @@ const Works = () => {
             }}
             >
              <div className="sideproject-image">
-                  <img src={Works4} alt="works4" />
+                  <img src={Works4} alt="works4" loading='lazy'/>
               </div>
               <div className="sideproject-text">
                  <h2>Weather App </h2>
@@ -312,7 +312,7 @@ const Works = () => {
               }}
             >
              <div className="sideproject-image">
-                  <img src={Works5} alt="works5" />
+                  <img src={Works5} alt="works5" loading='lazy'/>
               </div>
               <div className="sideproject-text">
                  <h2>Task Bee</h2>
@@ -343,7 +343,7 @@ const Works = () => {
               }}
             >
              <div className="sideproject-image">
-                  <img src={Works6} alt="works6" />
+                  <img src={Works6} alt="works6" loading='lazy'/>
               </div>
               <div className="sideproject-text">
                  <h2>Realstate DemoWebsite</h2>
@@ -373,7 +373,7 @@ const Works = () => {
             }}
            >
              <div className="sideproject-image">
-                  <img src={Works7} alt="works7" />
+                  <img src={Works7} alt="works7" loading='lazy'/>
               </div>
               <div className="sideproject-text">
                  <h2>Drum App</h2>
@@ -403,7 +403,7 @@ const Works = () => {
             }}
            >
              <div className="sideproject-image">
-                  <img src={Works8} alt="works8" />
+                  <img src={Works8} alt="works8" loading='lazy'/>
               </div>
               <div className="sideproject-text">
                  <h2>Solarsystem CSS</h2>
